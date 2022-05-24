@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200&display=swap');
+
 body{
  background-color : var(--bs-dark);
  color : var(--bs-gray-400) ;
- padding : 10% ;
+ padding : 2% ;
 }
+
 .a , .b {
  text-align : right ;
  width : 55px ;
 }
+
 .x{
  padding-left : 5px ;
  padding-right : 5px ;
 }
+
 .ans {
  width : 150px ;
  height : 20px ;
  background-color : var(--bs-dark);
  color : var(--bs-gray-400) ;
+}
+
+.check_word{
+ font-family: 'Maitree', serif;
 }
