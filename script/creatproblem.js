@@ -8,9 +8,9 @@ for (let i=0 ; i<c_problem ; i++){
 var elem = '<div>'
 for (let i=0 ; i<c_problem ; i++){
   elem += '<div class="d-flex">'
-  elem += "<span>"
-  elem += a[i]+"×"+b[i]+"=" 
-  elem += "</span>"
+  elem += '<span class="problem">'
+  elem += a[i]+" × "+b[i]+" = " 
+  elem += '</span>'
   elem += '<input type="number" class="form-control ans" />'
   elem += "</div>"
 }
