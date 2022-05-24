@@ -1,7 +1,11 @@
-.problem {
-width : 50% ;
+.a , .b {
+ text-align : right ;
+ width : 55px ;
 }
-
+.x{
+ padding-left : 5px ;
+ padding-right : 5px ;
+}
 .ans {
  width : 150px ;
  height : 20px ;
