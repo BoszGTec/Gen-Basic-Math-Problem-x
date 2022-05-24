@@ -2,7 +2,7 @@ function check_ans(){
 var ans = document.getElementsByClassName("ans")
 var check_word = document.getElementsByClassName("check_word")
  for (let i=0 ; i<c_problem ; i++){ 
-  ans[i].readonly = True
+  ans[i].disabled = true
   if(ans[i].value==(a[i]*b[i])){
    ans[i].style = "background-color : var(--bs-green) ; color : var(--bs-white) ;"
    check_word[i].innerText = "ถูก"
@@ -26,6 +26,6 @@ function fix_ans(){
  for (let i=0 ; i<c_problem ; i++){
   ans[i].value = ""
   ans[i].style = ""
-  ans[i].readonly = False
+  ans[i].disabled = false
  }
 }
