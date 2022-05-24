@@ -12,5 +12,5 @@ for (let i=0 ; i<c_problem ; i++){
   elem += '<input type="number" class="form-control ans" />'
   elem += "</div>"
 }
-elem = '</div>'
+elem += '</div>'
 document.getElementById("content-mathproblem").innerHTML=elem
