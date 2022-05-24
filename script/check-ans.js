@@ -24,6 +24,7 @@ var check_word = document.getElementsByClassName("check_word")
 function fix_ans(){
  var ans = document.getElementsByClassName("ans")
  for (let i=0 ; i<c_problem ; i++){
+  ans[i].value = ""
   ans[i].style = ""
   ans[i].readonly = False
  }
