@@ -4,7 +4,7 @@ var ans = document.getElementsByClassName("ans")
   if(ans[i].value==(a[i]*b[i])){
    ans[i].style="background-color : green ;"
   }
-  else if(ans[i].value!=(a[i]*b[i])){
+  else if(ans[i].value!=(a[i]*b[i])&&ans[i].value!=""){
    ans[i].style="background-color : red ;"
   }
   else {
