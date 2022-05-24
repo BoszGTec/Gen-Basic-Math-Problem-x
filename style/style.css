@@ -1,3 +1,8 @@
-.ans{
+.problem {
+width : 50% ;
+}
+
+.ans {
  width : 150px ;
+ height : 20px ;
 }
