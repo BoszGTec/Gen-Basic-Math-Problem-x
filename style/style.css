@@ -23,7 +23,7 @@ input[type="button"]{
 }
 
 .ans , .ans:focus {
- width : 150px ;
+ width : 100px ;
  height : 20px ;
  background-color : var(--bs-dark);
  color : var(--bs-gray-400) ;
