@@ -41,4 +41,5 @@ function view_ans(){
    sp.innerText += " "+a[i]*b[i]
    sp.style = "color : var(--bs-blue);"
    cw[i].appendChild(sp)
+  }
 }
