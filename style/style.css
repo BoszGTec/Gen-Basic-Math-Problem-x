@@ -17,7 +17,7 @@ body{
  padding-right : 5px ;
 }
 
-.ans {
+.ans , .ans:focus {
  width : 150px ;
  height : 20px ;
  background-color : var(--bs-dark);
