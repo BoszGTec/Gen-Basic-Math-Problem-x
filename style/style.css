@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200&display=swap');
-
 body{
  background-color : var(--bs-dark);
  color : var(--bs-gray-400) ;
  padding : 2% ;
+}
+
+input[type="button"]{
+ font-family: 'Maitree', serif;
+ font-weight: 400 ;
 }
 
 .a , .b {
@@ -26,4 +29,5 @@ body{
 
 .check_word{
  font-family: 'Maitree', serif;
+ font-weight: 200 ;
 }
