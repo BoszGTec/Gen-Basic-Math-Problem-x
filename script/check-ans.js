@@ -34,10 +34,10 @@ function fix_ans(){
 
 function view_ans(){
   check_ans()
-  var cw=document.getElementsByClassName("check_word")
-  var sp=document.createElement("span")
+  var cw = document.getElementsByClassName("check_word")
+  var sp = document.createElement("span")
   for (let i=0 ; i<c_problem ; i++){
-   sp=document.createElement("span")
+   sp = document.createElement("span")
    sp.innerText += " "+a[i]*b[i]
    sp.style = "color : var(--bs-blue);"
    cw[i].appendChild(sp)
