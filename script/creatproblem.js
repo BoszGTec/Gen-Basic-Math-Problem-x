@@ -25,7 +25,7 @@ for (let i=0 ; i<c_problem ; i++){
   elem += " = " 
   elem += '</span>'
 
-  elem += '<input type="number" class="form-control ans" />'
+  elem += '<input type="number" value="" class="form-control ans" />'
   
   elem += '<span class="x check_word"></span>'
  
