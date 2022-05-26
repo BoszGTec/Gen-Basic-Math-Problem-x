@@ -1,5 +1,5 @@
 document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Problem Multiplication Table</h1> \
-  <div id="content-mathproblem" ></div> \
+  <div id="content-mathproblem" >script error</div> \
   <input type="button" class="btn btn-success" \
    value="ตรวจคำตอบ" onclick="check_ans()" />  \
   <input type="button" class="btn btn-warning" \
