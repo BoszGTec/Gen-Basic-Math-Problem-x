@@ -1,8 +1,8 @@
-let c_problem=10
-let a=[] , b=[]
+let c_problem = 10
+let a = [] , b = []
 for (let i=0 ; i<c_problem ; i++){
-  a[i]=Math.floor(Math.random() * 10000);
-  b[i]=Math.floor(Math.random() * 1000);
+  a[i] = Math.floor(Math.random() * 10000);
+  b[i] = Math.floor(Math.random() * 1000);
 }
 
 var elem = '<div>'
@@ -32,4 +32,4 @@ for (let i=0 ; i<c_problem ; i++){
   elem += "</div>"
 }
 elem += '</div>'
-document.getElementById("content-mathproblem").innerHTML=elem
+document.getElementById("content-mathproblem").innerHTML = elem
