@@ -1,7 +1,7 @@
-let c_problem = 12*2
+let c_problem = 12*12
 let a = [] , b = []
-for (let y=0 ; y<(c_problem/2) ; y++){
-  for (let x=0 ; x<(c_problem/2) ; x++){
+for (let y=0 ; y<(c_problem/12) ; y++){
+  for (let x=0 ; x<(c_problem/12) ; x++){
    a[y+x] = y 
    b[y+x] = x 
   }
