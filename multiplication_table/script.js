@@ -12,4 +12,4 @@ setTimeout(()=>{
 document.getElementsByTagName("body")[0].innerHTML += ' \
   <script src="../script/creatproblem-multiplication_table.js"></script>  \
   <script src="../script/check-ans.js"></script>'
-} , 100 )
+} , 500 )
