@@ -1,9 +1,9 @@
-let c_problem = 12
+let c_problem = 12*2
 let a = [] , b = []
-for (let y=0 ; y<c_problem ; y++){
-  for (let x=0 ; x<c_problem ; x++){
-   a[y][x] = y 
-   b[y][x] = x 
+for (let y=0 ; y<(c_problem/2) ; y++){
+  for (let x=0 ; x<(c_problem/2) ; x++){
+   a[y+x] = y 
+   b[y+x] = x 
   }
 }
 
