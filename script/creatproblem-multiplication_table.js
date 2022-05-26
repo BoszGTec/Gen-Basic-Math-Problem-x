@@ -1,9 +1,11 @@
 let c_problem = 12*12
+let count_t = 0
 let a = [] , b = []
 for (let y=0 ; y<(c_problem/12) ; y++){
   for (let x=0 ; x<(c_problem/12) ; x++){
-   a[y+x] = y 
-   b[y+x] = x 
+   a[count_t] = y 
+   b[count_t] = x 
+   count_t += 1
   }
 }
 
