@@ -6,6 +6,10 @@ document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Probl
    value="แก้คำตอบ" onclick="fix_ans(); " />    \
   <input type="button" class="btn btn-info" hidden      \
    value="ดูคำตอบ" id="view_ans" onclick="view_ans()" /> \
-  <hr/><center>©2022 BoszGTec</center> \
+  <hr/><center>©2022 BoszGTec</center> '
+
+setTimeout(()=>{ 
+document.getElementsByTagName("body")[0].innerHTML += ' \
   <script src="../script/creatproblem-multiplication_table.js"></script>  \
   <script src="../script/check-ans.js"></script>'
+} , 100 )
