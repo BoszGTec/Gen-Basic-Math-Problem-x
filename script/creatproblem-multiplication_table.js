@@ -36,4 +36,6 @@ for (let i=0 ; i<c_problem ; i++){
   elem += "</div>"
 }
 elem += '</div>'
-document.getElementById("content-mathproblem").innerHTML=elem
+document.getElementById("content-mathproblem").innerHTML = elem
+
+document.getElementById("content-mathproblem").innerHTML += "<div>js work</div>"
