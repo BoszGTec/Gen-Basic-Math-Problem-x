@@ -8,8 +8,7 @@ document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Probl
    value="ดูคำตอบ" id="view_ans" onclick="view_ans()" /> \
   <hr/><center>©2022 BoszGTec</center> '
 
-setTimeout(()=>{ 
-document.getElementsByTagName("body")[0].innerHTML += ' \
+
+document.getElementsByTagName("html")[0].innerHTML += ' \
   <script src="../script/creatproblem-multiplication_table.js"></script>  \
-  <script src="../script/check-ans.js"></script>'
-} , 500 )
+  <script src="../script/check-ans.js"></script> '
