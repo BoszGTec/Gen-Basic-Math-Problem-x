@@ -33,3 +33,26 @@ input[type="button"]{
  font-family: 'Maitree', serif;
  font-weight: 200 ;
 }
+
+@keyframes spin{
+ to{transform : rotate(360deg) ;}
+}
+
+.loading{
+ --innercolor : lightgreen ;
+ --mcolor : darkgray ;
+}
+
+#loadingcycle{
+ width : 15px ;
+ height : 15px ;
+ border : solid 2px var(--mcolor) ;
+ border-top : solid 2px var(--innercolor)  ;
+ border-radius : 50% ;
+ animation : spin 1s infinite linear ;
+}
+
+.loading>span{
+ display : inline-block ;
+ color : var(--mcolor)  ;
+}
