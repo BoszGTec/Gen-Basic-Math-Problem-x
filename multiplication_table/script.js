@@ -9,6 +9,4 @@ document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Probl
   <hr/><center>©2022 BoszGTec</center> '
 
 
-document.getElementsByTagName("body")[0].innerHTML += ' \
-  <script src="../script/creatproblem-multiplication_table.js"></script>  \
-  <script src="../script/check-ans.js"></script> '
+document.getElementsByTagName("body")[0].innerHTML += ' <script src="https://boszgtec.github.io/Gen-Basic-Math-Problem-x/script/check-ans.js"></script> '
