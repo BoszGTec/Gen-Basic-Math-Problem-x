@@ -12,7 +12,7 @@ for (let y=2 ; y<=(c_problem) ; y++){
 c_problem = count_t
 var elem = '<div>'
 for (let i=0 ; i<c_problem ; i++){
-  if((i%12)==0){elem += "<span>-----------------------------</span>"}
+  if((i%12)==0){elem += "<span>----------------------------------------------------------</span>"}
   
   elem += '<div class="d-flex">'
   
