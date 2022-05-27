@@ -1,5 +1,5 @@
+document.getElementById("content-mathproblem").innerHTML = "<div>js work</div>"
 let c_problem = 12
-function gen(){
 let count_t = 0
 let a = [] , b = []
 for (let y=2 ; y<=(c_problem) ; y++){
@@ -13,7 +13,9 @@ c_problem = count_t
 var elem = '<div>'
 for (let i=0 ; i<c_problem ; i++){
   elem += '<div class="d-flex">'
-
+  
+  if((c_problem%12)==0){elem += "<span>-----------------------------</span>"}
+    
   elem += '<span class="a">'
   elem += a[i]
   elem += '</span>'
@@ -38,5 +40,5 @@ for (let i=0 ; i<c_problem ; i++){
 }
 elem += '</div>'
 document.getElementById("content-mathproblem").innerHTML = elem
-}
-document.getElementById("content-mathproblem").innerHTML = "<div>js work</div>"
+
+
