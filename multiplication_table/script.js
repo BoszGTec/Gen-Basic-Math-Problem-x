@@ -1,5 +1,13 @@
 document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Problem Multiplication Table</h1> \
-  <div id="content-mathproblem" onload="gen()" >script error</div> \
+  <div id="content-mathproblem" onload="gen()" > \
+     <center> <div class="loading" > \
+     <span id="loadingcycle" ></span> \
+     <span>L</span> <span>o</span> <span>a</span> \
+     <span>d</span> <span>i</span> <span>n</span> \
+     <span>g</span> <span>.</span> <span>.</span> \
+     <span>.</span> \
+    </div> </center> \
+  </div> \
   <input type="button" class="btn btn-success" \
    value="ตรวจคำตอบ" onclick="check_ans()" />  \
   <input type="button" class="btn btn-warning" \
