@@ -1,9 +1,9 @@
 function gen(){
-let c_problem = 12*12
+let c_problem = (12*12)-14
 let count_t = 0
 let a = [] , b = []
-for (let y=0 ; y<(c_problem/12) ; y++){
-  for (let x=0 ; x<(c_problem/12) ; x++){
+for (let y=2 ; y<(c_problem/12) ; y++){
+  for (let x=1 ; x<(c_problem/12) ; x++){
    a[count_t] = y 
    b[count_t] = x 
    count_t += 1
