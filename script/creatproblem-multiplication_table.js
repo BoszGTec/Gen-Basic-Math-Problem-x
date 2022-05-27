@@ -1,15 +1,15 @@
+let c_problem = 12
 function gen(){
-let c_problem = (12*12)-14
 let count_t = 0
 let a = [] , b = []
-for (let y=2 ; y<(c_problem/12) ; y++){
-  for (let x=1 ; x<(c_problem/12) ; x++){
+for (let y=2 ; y<=(c_problem) ; y++){
+  for (let x=1 ; x<=(c_problem) ; x++){
    a[count_t] = y 
    b[count_t] = x 
    count_t += 1
   }
 }
-
+c_problem = count_t
 var elem = '<div>'
 for (let i=0 ; i<c_problem ; i++){
   elem += '<div class="d-flex">'
