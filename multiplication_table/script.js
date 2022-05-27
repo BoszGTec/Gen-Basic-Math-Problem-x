@@ -10,5 +10,5 @@ document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Probl
 
 
 document.getElementsByTagName("body")[0].innerHTML += ' \
-  <script src="https://raw.githubusercontent.com/BoszGTec/Gen-Basic-Math-Problem-x/main/script/creatproblem-multiplication_table.js"></script>  \
-  <script src="https://raw.githubusercontent.com/BoszGTec/Gen-Basic-Math-Problem-x/main/script/check-ans.js"></script> '
+  <script src="../script/creatproblem-multiplication_table.js"></script>  \
+  <script src="../script/check-ans.js"></script> '
