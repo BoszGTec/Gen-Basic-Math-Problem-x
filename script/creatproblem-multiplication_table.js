@@ -1,3 +1,4 @@
+function gen(){
 let c_problem = 12*12
 let count_t = 0
 let a = [] , b = []
@@ -37,5 +38,5 @@ for (let i=0 ; i<c_problem ; i++){
 }
 elem += '</div>'
 document.getElementById("content-mathproblem").innerHTML = elem
-
-document.getElementById("content-mathproblem").innerHTML += "<div>js work</div>"
+}
+document.getElementById("content-mathproblem").innerHTML = "<div>js work</div>"
