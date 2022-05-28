@@ -6,3 +6,5 @@
 ![img](screenshot/SmartSelect_20220526-002706_Opera.jpg)
 
 [Link](https://boszgtec.github.io/Gen-Basic-Math-Problem-x/)
+
+by ©2022 BoszGTec
