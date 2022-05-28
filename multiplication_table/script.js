@@ -17,8 +17,6 @@ document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Probl
    '
 
 
-document.getElementsByTagName("body")[0].innerHTML += '<script src="https://cdn.jsdelivr.net/gh/BoszGTec/boszgtec.github.io/script/addcredit_1.js"></script>'
-
 function check_ans(){
 var ans = document.getElementsByClassName("ans")
 var check_word = document.getElementsByClassName("check_word")
