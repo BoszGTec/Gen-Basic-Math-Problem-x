@@ -14,10 +14,10 @@ document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Probl
    value="แก้คำตอบ" onclick="fix_ans(); " />    \
   <input type="button" class="btn btn-info" hidden      \
    value="ดูคำตอบ" id="view_ans" onclick="view_ans()" /> \
-  <hr/><center>©2022 BoszGTec</center> '
+   '
 
 
-document.getElementsByTagName("body")[0].innerHTML += ' <script src="https://boszgtec.github.io/Gen-Basic-Math-Problem-x/script/check-ans.js"></script> '
+document.getElementsByTagName("body")[0].innerHTML += '<script src="https://cdn.jsdelivr.net/gh/BoszGTec/boszgtec.github.io/script/addcredit_1.js"></script>'
 
 function check_ans(){
 var ans = document.getElementsByClassName("ans")
