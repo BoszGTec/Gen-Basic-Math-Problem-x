@@ -7,4 +7,4 @@
 
 [Link](https://boszgtec.github.io/Gen-Basic-Math-Problem-x/)
 
-by ©2022 BoszGTec
+###### by ©2022 BoszGTec
