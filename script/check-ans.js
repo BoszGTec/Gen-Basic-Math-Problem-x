@@ -25,6 +25,7 @@ function have_every_ans(){
 
 function check_ans(){
 let hea = have_every_ans()
+let score = 0 
 var ans = document.getElementsByClassName("ans")
 var check_word = document.getElementsByClassName("check_word")
 if (hea){
@@ -34,6 +35,7 @@ if (hea){
     ans[i].style = "background-color : var(--bs-green) ; color : var(--bs-white) ;"
     check_word[i].innerText = "ถูก"
     check_word[i].style = "color : var(--bs-green) ;"
+    score++
    }
    else if(ans[i].value!=(a[i]*b[i])&&ans[i].value!=""){
     ans[i].style = "background-color : var(--bs-red) ; color : var(--bs-white) ;"
@@ -46,6 +48,8 @@ if (hea){
     check_word[i].style = "color : var(--bs-yellow) ; "
    }
   }
+  if(score>=5){Toast.fire({icon: 'success',title: score+'/10', color : '#198754'})}
+  else{Toast.fire({icon: 'error',title: score+'/10', color : '#dc3545'})}
  }
 else { for (let i=0 ; i<c_problem ; i++){
     if(ans[i].value==""){
