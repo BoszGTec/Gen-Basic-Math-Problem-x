@@ -16,8 +16,18 @@ document.getElementsByTagName("body")[0].innerHTML = '  <h1>Gen Basic Math Probl
    value="ดูคำตอบ" id="view_ans" onclick="view_ans()" /> \
    '
 
+const Toast = Swal.mixin({
+  toast: true , position: 'top-end',
+  showConfirmButton: false , timer: 5000,
+  timerProgressBar: true,
+  didOpen: (toast) => {
+    toast.addEventListener('mouseenter', Swal.stopTimer)
+    toast.addEventListener('mouseleave', Swal.resumeTimer)
+  }
+})
 
 function check_ans(){
+let score = 0 
 var ans = document.getElementsByClassName("ans")
 var check_word = document.getElementsByClassName("check_word")
  for (let i=0 ; i<c_problem ; i++){ 
@@ -26,6 +36,7 @@ var check_word = document.getElementsByClassName("check_word")
    ans[i].style = "background-color : var(--bs-green) ; color : var(--bs-white) ;"
    check_word[i].innerText = "ถูก"
    check_word[i].style = "color : var(--bs-green) ;"
+   score++
   }
   else if(ans[i].value!=(a[i]*b[i])&&ans[i].value!=""){
    ans[i].style = "background-color : var(--bs-red) ; color : var(--bs-white) ;"
@@ -38,6 +49,8 @@ var check_word = document.getElementsByClassName("check_word")
    check_word[i].style = "color : var(--bs-yellow) ; "
   }
  }
+  if(score>=66){Toast.fire({icon: 'success',title: score+'/132', color : '#198754'})}
+  else{Toast.fire({icon: 'error',title: score+'/132', color : '#dc3545'})}
 }
 
 function fix_ans(){
