@@ -48,9 +48,11 @@ if (hea){
   }
  }
 else { for (let i=0 ; i<c_problem ; i++){
-   ans[i].style = "background-color : var(--bs-yellow) ;"
-   check_word[i].innerText = "ไม่ได้ตอบ"
-   check_word[i].style = "color : var(--bs-yellow) ; "
+    if(ans[i].value==""){
+     ans[i].style = "background-color : var(--bs-yellow) ;"
+     check_word[i].innerText = "ไม่ได้ตอบ"
+     check_word[i].style = "color : var(--bs-yellow) ; "
+    }
   }
  }
 }
@@ -60,11 +62,9 @@ function fix_ans(){
  if(ans[9].value==6){ document.getElementById("view_ans").hidden = false }
  
  for (let i=0 ; i<c_problem ; i++){
-  if(ans[i].value==""){
-   ans[i].value = ""
-   ans[i].style = ""
-   ans[i].disabled = false
-  }
+  ans[i].value = ""
+  ans[i].style = ""
+  ans[i].disabled = false
  }
 }
 
