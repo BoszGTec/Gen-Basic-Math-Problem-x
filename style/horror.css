@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 body{
- background-color : var(--bs-dark);
- color : var(--bs-gray-400) ;
+ background-color : #000 ;
+ color : #ff0000 ;
  padding : 2% ;
  font-family: 'Special Elite', cursive;
 }
@@ -26,8 +26,8 @@ input[type="button"]{
 .ans , .ans:focus {
  width : 100px ;
  height : 20px ;
- background-color : var(--bs-dark);
- color : var(--bs-gray-400) ;
+ background-color : #000 ;
+ color : #ff0000 ;
 }
 
 .check_word{
